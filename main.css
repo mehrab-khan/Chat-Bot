@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@600&family=Raleway:wght@200&display=swap');
+body{
+    padding: 0;
+    margin: 0;
+}
+#arrow{
+    font-size: 27px;
+    position: absolute;
+    margin: auto;
+    left: 3%;
+    top: 2%;
+}
+#more{
+    font-size: 27px;
+    position: absolute;
+    margin: auto;
+    left: 90%;
+    top: 2%;
+}
+hr{
+    position: absolute;
+    width: 358px;
+    margin: auto;
+    top: 8%;
+    left: 0;
+    right: 0;
+}
+.container{
+        overflow: hidden;
+        background-color: rgb(255, 255, 255);
+        height: 598px;
+        width: 357px;
+        margin: auto;
+        top: 50px;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        position: relative;
+    }
+    .footer{
+        background-color: rgb(255, 255, 255);
+        position: absolute;
+        height: 58px;
+        width: 358px;
+        margin: auto;
+        border-top: 1px solid black;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        
+    }
+    #user-data{
+        
+        position: absolute;
+        height: 40px;
+        width: 73%;
+        border-radius: 25px;
+        padding-left: 5%;
+        padding-right: 2%;
+        background-color: rgb(240, 238, 238);
+        border: none;
+        top: 18%;
+        left: 3%;
+        font-size: 17px;
+    }
+    #user-data{
+        outline: none;
+    }
+    #send{
+        font-size: 37px;
+        position: absolute;
+        top: 12px;
+        bottom: 0;
+        margin: auto;
+         
+        left: 306px;
+        right: 0;
+        color: rgb(0, 110, 255);
+    }
+    .conversion{
+        background-color: rgb(255, 255, 255);
+        overflow: hidden;
+         padding: 2%;
+        height:520px;
+        width: 357px;
+        margin: auto;
+        top: 0;
+        left: 0;
+         overflow: scroll;
+        right: 0;
+        position: absolute;
+    }
+    .user-text{
+
+        background-color: rgb(231, 231, 231);
+        position: relative; 
+        margin: auto;
+        padding: 2%;
+        margin-bottom: 2%;
+        border-radius: 5px;
+        margin-right:  4%;
+        visibility: hidden;
+        font-family: 'Raleway', sans-serif;
+        font-weight: bold;
+        line-height: 24px;
+        width: 280px;
+    }
+     
+    
+    .pre{
+        background-color: rgb(231, 231, 231);
+        position: relative; 
+        margin: auto;
+        padding: 2%;
+        margin-bottom: 2%;
+        border-radius: 5px;
+        margin-right:  4%;
+         
+        font-family: 'Raleway', sans-serif;
+        font-weight: bold;
+        line-height: 24px;
+        width: 280px;
+    }
+    .bot-text{
+        position: relative; 
+        margin: auto;
+        padding: 2%;
+        margin-bottom: 2%;
+        border-radius: 5px;
+        margin-left:  0.1%;
+        
+        font-family: 'Raleway', sans-serif;
+        font-weight: bold;
+        line-height: 24px;
+        border: 1px solid black;
+        width: 280px;
+    }
