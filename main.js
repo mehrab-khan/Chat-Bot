@@ -18,7 +18,7 @@ send.addEventListener('click',()=>{
      userDiv.textContent = input.value
 
 
-        const apiKey = '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'; 
+        const apiKey = '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'; 
            
         
         fetch('https://api.openai.com/v1/chat/completions', {
